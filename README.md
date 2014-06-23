@@ -33,18 +33,17 @@ Using QuantLib with Scala
   
   ###*either:*
   
-    add it to `LD_LIBRARY_PATH` (when using e.g. **sbt**): 
+  add it to `LD_LIBRARY_PATH` (when using e.g. **sbt**): 
   
         export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
         
   ###*or:*
   
-     run `java` with the option:
+  run `java` with the option:
   
         -Djava.library.path=/usr/local/lib/
 
-
-      On **Jenkins** the above code needs to be added to `JVM options`
+  On **Jenkins** the above code needs to be added to `JVM options`
   
   
   *Note that the JAR references the other files added to `/usr/local/lib`, so adding it alone isn't enough*
